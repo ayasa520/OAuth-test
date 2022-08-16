@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "declaration": true,
+    "removeComments": true,
+    "allowJs": true,
+    "strict": true,
+    "strictPropertyInitialization": false,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "target": "es5",
+    "sourceMap": true,
+    "lib": ["dom", "dom.iterable", "esnext","es6"],
+    "outDir": "dist",
+    "incremental": true,
+    "baseUrl": "./",
+  },
+  "include": ["**/*.ts"],
+  "exclude": ["node_modules", "dist"]
+}
